@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial,sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #515076;
+}
+
+.title {
+  font-size: 70px;
+  line-height: 78px;
+  margin: 0;
+  text-align: center;
+}
+
+.products-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.components-list {
+  margin-top: 10px;
+  padding-left: 0px;
+}
+
+.component {
+  margin-bottom: 5px;
+}
+
+.card {
+  background: #F7F7FA ;
+  width: 340px;
+  padding: 25px;  
+}
+
+.img {
+  display: block;
+  width: 290px;
+  margin-bottom: 30px;
+}
+
+.price {
+  margin-top: 25px;
+  font-size: 20px;
+}
+
+.elements {
+  padding-left: 15px;
+  text-align: left;
+}
+
+.normal {
+  margin-top: 25px;
+  text-transform: uppercase;
+}
