@@ -9,6 +9,7 @@ body {
   color: #515076;
 }
 
+
 .title {
   font-size: 70px;
   line-height: 78px;
@@ -20,15 +21,6 @@ body {
   list-style: none;
   padding: 0;
   margin: 0;
-}
-
-.components-list {
-  margin-top: 10px;
-  padding-left: 0px;
-}
-
-.component {
-  margin-bottom: 5px;
 }
 
 .card {
@@ -43,17 +35,36 @@ body {
   margin-bottom: 30px;
 }
 
-.price {
-  margin-top: 25px;
-  font-size: 20px;
-}
-
-.elements {
-  padding-left: 15px;
-  text-align: left;
-}
-
 .normal {
   margin-top: 25px;
   text-transform: uppercase;
+  color: #A5A3B9;
+}
+
+.name {
+  line-height: 27px;
+}
+
+.components-list {
+  margin-top: 10px;
+  padding-left: 0px;
+  padding-left: 15px;
+}
+
+.component {
+  margin-bottom: 5px;
+}
+
+.price {
+  display: flex;
+  margin-top: 70px;
+  font-size: 20px;
+  
+}
+
+.number { 
+  display: block;
+  margin-top: px;
+  margin-left: 161px;
+  font-size: 20px;
 }
