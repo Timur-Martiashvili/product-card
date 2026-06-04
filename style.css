@@ -39,6 +39,7 @@ body {
   margin-top: 25px;
   text-transform: uppercase;
   color: #A5A3B9;
+  font-size: 12px;
 }
 
 .name {
@@ -57,14 +58,12 @@ body {
 
 .price {
   display: flex;
-  margin-top: 70px;
+  margin-top: 25px;
   font-size: 20px;
-  
 }
 
 .number { 
   display: block;
-  margin-top: px;
   margin-left: 161px;
   font-size: 20px;
 }
