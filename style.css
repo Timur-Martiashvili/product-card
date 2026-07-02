@@ -40,7 +40,6 @@ body {
   flex-wrap: wrap;
   gap: 45px;
   justify-content: center;
-  width: 1110px;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -80,6 +79,7 @@ body {
 
 .price {
   display: flex;
+  justify-content: space-between;
   margin-top: 70px;
   font-size: 20px;
   white-space: nowrap;
@@ -88,7 +88,6 @@ body {
 
 .number { 
   display: block;
-  margin-top: px;
-  margin-left: 161px;
+  margin-top: 5px;
   font-size: 20px;
 }
