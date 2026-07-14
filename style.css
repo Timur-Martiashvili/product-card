@@ -3,11 +3,28 @@
 }
 
 body {
-  font-family: Arial,sans-serif;
+  font-family: 'Montserrat', Arial,sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: #515076;
 }
+
+.catalog {
+  background-image: url("./img/bg-1.png");
+  background-repeat: no-repeat; 
+  /* Позиционируем картинку точно по координатам из Figma */
+  background-position: calc(50% - 170px) 0;
+  background-size: 790px 697px;
+  /* Задаем ей оригинальный размер из макета, чтобы она не сжималась и не растягивалась */
+  /* Ограничиваем ширину каталога под размер сетки карточек */
+  width: 1110px;
+  /* Центрируем всю секцию вместе с фоном на экране */
+  margin: 0 auto;
+  /* Внутренние отступы, чтобы текст не прилипал к краям */
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
 
 
 .title {
@@ -15,9 +32,14 @@ body {
   line-height: 78px;
   margin: 0;
   text-align: center;
+  margin-bottom: 110px;
 }
 
 .products-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 45px;
+  justify-content: center;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -26,7 +48,7 @@ body {
 .card {
   background: #F7F7FA ;
   width: 340px;
-  padding: 25px;  
+  padding: 25px; 
 }
 
 .img {
@@ -57,14 +79,15 @@ body {
 
 .price {
   display: flex;
+  justify-content: space-between;
   margin-top: 70px;
   font-size: 20px;
+  white-space: nowrap;
   
 }
 
 .number { 
   display: block;
-  margin-top: px;
-  margin-left: 161px;
+  margin-top: 5px;
   font-size: 20px;
 }
