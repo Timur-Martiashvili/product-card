@@ -82,10 +82,9 @@ body {
   margin-top: 70px;
   font-size: 20px;
   white-space: nowrap;
-  }
+  align-items: center;
+}
 
 .product-card__price-value { 
-  display: block;
-  margin-top: 5px;
   font-size: 20px;
 }
