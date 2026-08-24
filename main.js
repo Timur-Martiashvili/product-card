@@ -48,5 +48,10 @@ title.addEventListener('mouseover', () => {
   console.log(title.textContent);
 });
 
+const button = document.querySelector('#change-color-button');
+
+button.addEventListener('click', () => {
+  button.classList.toggle('change-color');
+});
 
 
